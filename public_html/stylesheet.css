@@ -1,0 +1,355 @@
+@font-face {
+    font-family: Oxygen;                
+    src: url('OXYGEN/Oxygen-Light.ttf');   
+} 
+*{
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+}
+form * {    
+    color: black;   
+}
+form span{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Oxygen;
+    color: #F00;
+}
+form label{         
+    color: white;   
+    font-family: Oxygen;
+}
+form tr{
+    height: 25px;	
+}	
+form input, form  select{
+    font-size: 1em;
+    height: 1.6em;
+}
+form input[type="text"], form  input[type="password"], form  input[type="date"], form  input[type="email"], form  select{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(0,0,0,0.4);
+}
+#homeImg{    
+    height: 3.5em;
+    width: 3.5em;
+    border-left: 0.15em solid black;
+    border-right: 0.15em solid black;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    background-image: url(img/home.png);
+    background-size: 100% 100%;
+    background-position: center center;
+}
+#homeImg:hover{
+    height: 3.5em;
+    background-color: #11232f;
+    background-image: url(img/homeHover.png);
+}
+html ,body{    
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;    
+    padding: 0;
+    position: relative;    
+    background-color: #11232f;
+}
+section{
+    text-align: center;
+    width: 100%;
+    max-width: inherit;
+    height: auto;
+    display: block;
+}
+.toplink{
+    text-decoration: none;
+    font-size: 2em;
+}
+.toplink:hover{
+    font-weight: bold;
+}
+.titulo{
+    margin-top: 1em;
+    font-size: 3.8em;    
+    text-align: center;
+    display: block;
+}
+
+
+.titulosemmargin{
+    font-size: 3.8em;    
+    text-align: center;
+    display: block;
+}
+
+.subtitulo{
+    font-size: 1.5em;    
+    text-align: center;
+    display: block;
+}
+.texto{
+    font-size: 2em;
+}
+p{
+    text-align: center;    
+}
+.espaco{
+    height: 30em;
+}
+header{
+    border-bottom: 0.15em solid black;
+    background-color: #204056;
+    height: 3.5em;   
+    display: block;
+    min-width: 60em;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+.menu{
+    display: table-cell;
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+    vertical-align: middle;
+}
+
+
+.menu li{
+    position: relative;  
+
+    display: inline-block;
+    height: inherit;
+    font-size: 30px;
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    background: #11232f;
+}
+
+.menu li a:hover{
+    background: #091117;
+    color: #fff;
+}
+
+.menu li ul{
+
+    position: absolute;
+    padding: 0;
+    display: none;
+    top: 25px;
+    left: 0;
+    background-color: #000;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display: block;
+}
+
+
+.menu li ul li{
+    border: 1px solid black;
+    background: lightblue;
+    display: block;
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#divheader1{
+    text-align: center;
+    display: table;
+    height:inherit;
+    float:right;
+
+    margin-right:5%;
+    background-color: #11232f;
+    width: 8em;
+}
+#divheader2{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+
+
+
+#divheader3{
+    text-align: center;
+    margin-left: 5%;
+    display: inline;
+    float: left;
+}
+
+#divheader4{
+    position: absolute;
+}
+
+.imgMovie{
+    text-align: center;
+}
+.imgMovie img{
+    width: 60%;
+    max-height: 30em;
+    max-width: 100%;
+}
+footer{
+    border-top: 0.125em solid black;
+    background-color: #204056;
+    height: 3.5em;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    position: fixed; 
+    display: table;
+}
+#senailogo{
+    height: 3.5em;
+    margin: auto;  
+    background-color: rgba (0,0,0,0);
+}
+#homediv img{
+    height: 3.5em;
+    margin: auto;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+#logodiv{
+    text-align: center;
+    float: left;
+    width: 15em;
+    height: inherit;
+    display: inline-block;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin:0;
+    margin-left: 5%; 
+}
+#login{
+    height: inherit;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+    text-align: center;
+    margin:0;
+}
+#login *{
+    vertical-align: middle;
+}
+#logodiv img{
+    height: 100%;
+    width: 95%;
+}
+#logodiv:hover{
+    background: #11232f;
+}
+
+
+
+
+.temas {
+    text-align: center;
+    height: 25em;
+    width: 20.5em;
+    background: #204056;
+    display: inline-block;
+    margin: 0.5em;  
+    color: white;   
+}
+.temas:hover{    
+    background-color: #dd7e20;
+    color: black;          
+}
+.botoes, input[type="button"], input[type="submit"], input[type="reset"]{
+    background: #204056;
+    height: 2.5em;
+    color: white;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+.botoes:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover{
+    background-color: #dd7e20;
+    color: white;
+}
+.temas table{
+    text-align: inherit;    
+    height: 100%;
+    width: 100%;    
+}
+.rodape{
+    display:table-cell;
+    vertical-align: middle;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center; 
+}
+.tematitulo{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center; 
+}
+.temas img{
+    
+    height: 20em;
+}
+.temas table:hover{
+    text-align: inherit;    
+    height: 100%;
+    width: 100%;     
+}
+.temas *{
+    color: inherit;
+}
+.temas *:hover{
+    color: inherit;
+}
+.nosub{
+    text-decoration: none;
+}
+#footerDistance{
+    height: 4em;
+}
+.textoDiv{
+    display: block;
+}
+.textoDiv p{
+    text-indent: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: block;    
+    text-align: justify;
+}
